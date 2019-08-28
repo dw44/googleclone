@@ -1,0 +1,36 @@
+body {
+    font-family: arial, sans-serif;
+    background: #fff;
+    color: #222;
+    font-size: small;
+}
+
+div {
+    display: block;
+}
+
+.content {
+    margin: 0 auto;
+    width: 30%;
+}
+#searchbox {
+    background: transparent;
+    height:35px;
+    width: 515px;
+    font-size: 16px;
+    display: flex;
+    flex: 100%;
+}
+
+#buttons {
+    margin: 0 auto;
+    width: 50%;
+}
+
+.country_bar {
+    margin-left: 30px;
+    text-align: left;
+    color: rgba(0,0,0,0.54);
+    padding-left: 27px;
+    font-size: small;
+}
