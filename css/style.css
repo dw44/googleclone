@@ -59,3 +59,14 @@ body {
     text-align: center;
     padding-top: 190px;
 }
+
+#searchbox {
+    border: 1px #d6d4cb solid;
+    border-radius: 40px;
+    padding: 0px 10px 0px 10px;
+    margin-top: 22px;
+    font: 16px arial,sans-serif;
+    line-height: 34px;
+    height: 45px !important;
+    width: 570px;
+}
