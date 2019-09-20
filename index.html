@@ -1,31 +1,48 @@
 <!DOCTYPE html>
-<html>
 
+<html>
     <head>
-        <title>GoogleTestMain</title>
-        <meta charset="utf-8">
+        <title>Google</title>
         <link rel="icon" href="assets/icon.png">
-        <link rel="stylesheet" type="text/css" href="css/style.css">     
+        <link rel="stylesheet" type="text/css" href="css/style.css">
     </head>
 
-    <body>
-        <div class="navtop">  
+    <div class="navtop">  
             <button id="signin-but" type="submit">Sign in</button>          
             <a class="navimage" href="#"><img id="gridicon" src="assets/grid.png"></a>
             <a class="navitem" href="#">Images</a>
             <a class="navitem" href="#">Gmail</a>                    
-        </div>   
-        
-        <div class="content-container">
-            <div class="content">
-                <img src="assets/googlelogo.png">
-                <div class="searchform">
-                    <form action="https://www.google.com" method="GET" name="searchform" id="main-form">
-                    <input type="text" name="searchbox" id="searchbox"></form>
-                    </form>
-                </div>
-            </div>
-        </div>
+    </div>  
 
+    <body>
+        <div class="container">
+            <img id="logo" src="assets/googlelogo.png" alt="Google Logo">  
+            <div class="searchbox">
+                <img src="assets/search.png" id="searchicon" alt="Search">
+                <input type="text" name="search" id="search">
+                <img src="assets/micro.png" alt="Voice Search" id="mic">       
+            </div>
+            <div class="buttons">
+                <button class="searchbtn">Google Search</button>
+                <button class="searchbtn">I'm Feeling Lucky</button>
+            </div>
+        </div>   
+        <div class="footer">
+            <div class="left">
+                <ul>
+                    <li><a>Advertising</a></li>
+                    <li><a>Business</a></li>
+                    <li><a>About</a></li>
+                    <li><a>How Search Works</a></li>
+                </ul>
+            </div>
+            <div class="right">
+                <ul>
+                    <li><a>Privacy</a></li>
+                    <li><a>Terms</a></li>
+                    <li><a>Settings</a></li>
+                </ul>
+            </div>
+        </div>     
     </body>
 </html>
